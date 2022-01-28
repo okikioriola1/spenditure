@@ -1,0 +1,122 @@
+.spenditure__testimonial-card{
+    width: 360px;
+    height: 416px;
+    margin: 2rem auto;
+    box-shadow: 8px -1px 12px 7px rgba(122,121,121,0.56);
+    /* box-shadow: (0px 10px 40px rgba(118, 95, 130, 0.25)); */
+}
+.testimonial-header h1{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 83px;
+    color: #1D2025;
+    text-align: center;
+    padding: 3rem 0;
+
+
+}
+.spenditure__testimonial-card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+
+}
+
+.spenditure__testimonial-card-content-p p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    color: rgba(27, 28, 30, 0.8);
+    padding: 3rem 0;
+}
+
+.spenditure__testimonial-card-profile p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+    color: rgba(27, 28, 30, 0.8);
+    padding-left: 1rem;
+}
+
+.spenditure__testimonial-card-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.spenditure__testimonial-card-profile img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.spenditure__testimonial-card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width: 900px){
+    .spenditure__testimonial-card{
+        width: 263px;
+        height: 250px;
+        margin: 2rem auto;
+    }
+
+    .testimonial-header h1{
+        font-size: 50px;
+        line-height: 70px;
+        padding: 1.5rem 0;
+
+    }
+    .spenditure__testimonial-card-content-p p{
+        font-size: 14px;
+        line-height: 23px;
+        padding: 1.5rem 0;
+
+    }
+    .spenditure__testimonial-card-profile p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.spenditure__testimonial-card-content{
+    padding: 2rem 1rem;
+}
+.spenditure__testimonial-card-profile img{
+    width: 47px;
+    height: 47px;
+}
+}
+
+
+@media(max-width: 700px){
+    .spenditure__testimonial-card{
+        width: 230px;
+        height: 300px;
+    }
+
+    .testimonial-header h1{
+        font-size: 45px;
+        line-height: 73px;
+        padding: 1.5rem 0;
+
+    }
+    .spenditure__testimonial-card-content-p p{
+        font-size: 17px;
+        line-height: 23px;
+        padding: 1.5rem 0;
+
+    }
+    .spenditure__testimonial-card-profile p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.spenditure__testimonial-card-content{
+    padding: 2rem 1rem;
+}
+.spenditure__testimonial-card-profile img{
+    width: 47px;
+    height: 47px;
+}
+}

@@ -1,0 +1,47 @@
+.spenditure__download{
+    background-color:#23273C;
+
+}
+
+.spenditure__download-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spenditure__download-content-header h1{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 78px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.spenditure__download-content-p p{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FCFCFD;
+
+}
+.spenditure__download-content-btn{
+    display: flex;
+    margin-top: 2rem;
+}
+.app-store,
+.google-pay{
+    background: #1D2025;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    font-size: 11px;
+    line-height: 15px;
+    color: #FCFCFD;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
