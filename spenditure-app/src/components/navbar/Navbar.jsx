@@ -5,7 +5,7 @@ import './navbar.css'
 
 const Menu = () => (
     <>
-    <p><a href="#blog">Blog</a></p>
+    <p><a href="https://dev-spenditure.pantheonsite.io/blog/">Blog</a></p>
     <p><a href="#what-we-offer">Services</a></p>
     <p><a href="#about">About</a></p>
     <p><a href="#contact">Contact</a></p>
